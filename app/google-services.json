@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "42030532278",
+    "firebase_url": "https://applavanderia.firebaseio.com",
+    "project_id": "applavanderia",
+    "storage_bucket": "applavanderia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42030532278:android:07775533abc6ce1b",
+        "android_client_info": {
+          "package_name": "itchetumal.edu.mx.dapps.applavanderia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42030532278-4uvmnhabc3olfsudpvb8f90v2n91vkuf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "itchetumal.edu.mx.dapps.applavanderia",
+            "certificate_hash": "dc767a35fc9da9cf972e990e553ea7e9a2437c9a"
+          }
+        },
+        {
+          "client_id": "42030532278-pm04j5ifrtc9c7agr5fjvi3ukkc92vus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_hfkQN8tEUQmgWM_lIMM_N9V-kahrdCc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42030532278-pm04j5ifrtc9c7agr5fjvi3ukkc92vus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

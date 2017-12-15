@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itchetumal.edu.mx.dapps.applavanderia.bonosbtn">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="15dp"
+        android:text="Tipo de Promocion:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/precio"
+        android:layout_alignBottom="@+id/precio"
+        android:layout_alignStart="@+id/textView32"
+        android:text="Precio:"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_alignBottom="@+id/textView32"
+        android:layout_toEndOf="@+id/textView32" />
+
+    <EditText
+        android:id="@+id/precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nombre"
+        android:layout_below="@+id/nombre"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="precio"
+        android:text="213" />
+
+    <EditText
+        android:id="@+id/estadodelpedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/precio"
+        android:layout_below="@+id/precio"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Activo"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="itchetumal.edu.mx.dapps.applavanderia.comoMI">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Empezar lavada"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Para empezar tu colada tienes que entrar en “Inicio”. Después, seleccionar qué servicio prefieres e indicarnos qué prendas necesitas lavar. "
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Dirección y horario"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Cuando ya tengas tus prendas seleccionadas, podrás escoger el día y la hora a la que quieres que vayamos a recoger y entregar tu ropa. Podrás seleccionar las que mejor se adapten a ti, desde 7am hasta 11pm, todos los días de la semana (según disponibilidad). Además, puedes seleccionar dirección de recogida y entrega diferentes, ¡como mejor te venga!"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Resumen de tu lavado"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Ahora puedes escribirnos en comentarios si hay una mancha especialmente difícil o cualquier anotación que consideres oportuna con respecto a tu pedido. A continuación, te mostraremos el resumen general de tu pedido, para que puedas verificar tu dirección, horarios y bultos."
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

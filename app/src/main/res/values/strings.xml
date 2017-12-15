@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">appLavanderia </string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_resetearcontra">Resetear Contraseña</string>
+    <string name="title_activity_principal"> </string>
+    <string name="title_activity_como_mi">Mi Primer Lavado</string>
+    <string name="title_activity_como_horario">Horarios Recogida/Entrega</string>
+    <string name="title_activity_como_garantia">Garantia AppLavanderia</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_ajustes">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_admin_control">adminControl</string>
+    <string name="title_activity_lavanderiabtn">lavanderiabtn</string>
+
+    <string-array name="pais">
+        <item>México</item>
+        <item>Francia</item>
+        <item>Alemania</item>
+        <item>España</item>
+    </string-array>
+    <string-array name="codigopais">
+        <item>MEX</item>
+        <item>FRa</item>
+        <item>Ale</item>
+        <item>ESP</item>
+    </string-array>
+</resources>

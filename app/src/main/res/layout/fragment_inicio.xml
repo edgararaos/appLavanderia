@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/background_light"
+    tools:background="@android:color/background_light"
+    tools:context="itchetumal.edu.mx.dapps.applavanderia.inicio">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/common_google_signin_btn_text_dark_focused"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:layout_weight="0.24"
+                android:background="@color/common_google_signin_btn_text_dark_focused"
+                app:srcCompat="@drawable/logoprincipal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnlavanderia"
+                    android:layout_width="160dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.10"
+                    android:background="@drawable/lavanderia"
+                    android:shadowRadius="10" />
+
+                <Button
+                    android:id="@+id/btntintoreria"
+                    android:layout_width="160dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/tintoreria" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="true"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnprendaespecial"
+                    android:layout_width="160dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.10"
+                    android:background="@drawable/prendasespeciales" />
+
+                <Button
+                    android:id="@+id/btnedredon"
+                    android:layout_width="160dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/edredones"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="true"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnplanchar"
+                    android:layout_width="160dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.10"
+                    android:background="@drawable/planchar" />
+
+                <Button
+                    android:id="@+id/btnalfombras"
+                    android:layout_width="160dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/alfombras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="true"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnpieles"
+                    android:layout_width="160dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.10"
+                    android:background="@drawable/pieles" />
+
+                <Button
+                    android:id="@+id/btnbonos"
+                    android:layout_width="160dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bonos" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

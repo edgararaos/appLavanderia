@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Ajustes">
+        <CheckBoxPreference
+            android:key="option1"
+            android:title="Sonido"
+            android:summary="Activar o desactivar el sonido"/>
+        <EditTextPreference
+            android:key="opcion2"
+            android:title="Nombre de usuario"
+            android:summary="Identificar al usuario de la Aplicacion"
+            android:dialogTitle="Introduce valor"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Datos de Paises">
+        <ListPreference
+            android:key="opcion3"
+            android:title="Pais"
+            android:summary="Pais de Usuario"
+            android:dialogTitle="Indicar Pais"
+            android:entries="@array/pais"
+            android:entryValues="@array/codigopais"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

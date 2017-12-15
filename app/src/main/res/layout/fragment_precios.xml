@@ -1,0 +1,1151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="itchetumal.edu.mx.dapps.applavanderia.precios">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout2">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.03"
+                        android:background="#eaedec"
+                        android:text="Lavanderia"
+                        android:textAllCaps="false"
+                        android:textColor="#36e9e9"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bolsa hasta 5 kg"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="$50"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bolsa hasta 8 kg"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="$50"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bolsa hasta 10kg"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="$50"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Colcha"
+                        android:textSize="20sp" />
+
+
+                    <TextView
+                        android:id="@+id/as3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$50"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Funda almohada"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/as4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$50"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Juego Cama Doble"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/as5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$50"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textVie"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bolsa hasta 5 kg"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/as12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$50"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textVief"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Toallas"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/as13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$50"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textVi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.03"
+                        android:background="#eaedec"
+                        android:text="Tintoreria"
+                        android:textAllCaps="false"
+                        android:textColor="#36e9e9"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Traje"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$70"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView123"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Abrigo"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/ab"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$70"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Almohada"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/aas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$70"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bata"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/aad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$70"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Blusa"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/aasd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$70"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Caleco"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$70"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Falda"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$70"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Polo"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$70"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.03"
+                        android:background="#eaedec"
+                        android:text="Prendas Especiales"
+                        android:textAllCaps="false"
+                        android:textColor="#36e9e9"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Vestidos de fiesta"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$130"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Abrigo"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$130"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Abrigo"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$130"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Traje"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$130"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Chaleco"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$130"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Guantes"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$130"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.03"
+                        android:background="#eaedec"
+                        android:text="Edredon"
+                        android:textAllCaps="false"
+                        android:textColor="#36e9e9"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Edredon Doble"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/as32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$230"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Edredon con Plumas"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$230"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Edredo Individual"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$230"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Edredon Matrimonial"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$230"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Edredon King Size"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$230"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.03"
+                        android:background="#eaedec"
+                        android:text="Planchar"
+                        android:textAllCaps="false"
+                        android:textColor="#36e9e9"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Blusa"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a43"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$75"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Camisa"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a44"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$75"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Falda"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a45"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$75"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Fundas de Cama"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a46"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$75"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView47"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Juego de cama"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a47"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$75"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView48"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.03"
+                        android:background="#eaedec"
+                        android:text="Alfombras"
+                        android:textAllCaps="false"
+                        android:textColor="#36e9e9"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView49"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Sintetica"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a49"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$174"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView50"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Lana"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$174"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Piel de Cordero"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$174"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView52"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Piel de Vaca"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$174"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView53"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.03"
+                        android:background="#eaedec"
+                        android:text="Pieles"
+                        android:textAllCaps="false"
+                        android:textColor="#36e9e9"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView54"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Abrigo de Ante"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a54"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$310"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView55"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Abrigo de Cuero"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a55"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$310"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView56"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bolso de Ante"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a56"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$310"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bolso de Cuero"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a57"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$310"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView58"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Calzado en General"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a58"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$310"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.03"
+                        android:background="#eaedec"
+                        android:text="Paquetes"
+                        android:textAllCaps="false"
+                        android:textColor="#36e9e9"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Pack 1 - Camisas (4)"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a60"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$210"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView61"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Pack 2 - Pantalones (4)"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a61"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$210"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView62"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:text="Pack 3 - Combinado"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a62"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$210"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Precios"
+            android:textColor="@android:color/background_light"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
